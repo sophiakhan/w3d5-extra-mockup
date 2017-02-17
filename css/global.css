@@ -1,7 +1,35 @@
 * {
     box-sizing: border-box;
 }
-img {
+/*img {
     width: 100%;
+}*/
+
+header .col-logo {
+    padding-top: 20px;
 }
 
+.navigation {
+    background: black;
+    color: white;
+    font-size: 24;
+    font-weight: bold;
+}
+
+.navigation .nav-list > li {
+    padding: 10px;
+}
+
+.nav-list > li:hover {
+    background: rgb(266,0,123);
+    padding: 10 10 20 10;
+}
+
+.nav-list > li > a {
+    color: white;
+    list-style-type: none;
+}
+
+.nav-list .social-icons > img {
+    padding-top: 5px;
+}
