@@ -30,6 +30,26 @@ header .col-logo {
     list-style-type: none;
 }
 
-.nav-list .social-icons > img {
-    padding-top: 5px;
+.nav-list > li > .social-icons > img {
+    padding: 10px;
+}
+
+main {
+    background: url(../img/background.jpg);
+    background-size: cover;
+    padding: 50px;
+}
+
+.info-main h3 {
+    color: rgb(266,0,123);
+}
+
+.info-main h1 {
+    color: white;
+    font-size: 70px;
+}
+
+.verbs-main {
+    color: white;
+    font-size: 50px;
 }
